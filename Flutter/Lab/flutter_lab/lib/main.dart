@@ -1,4 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_lab/Lab_6/DivideScreen.dart';
+
+import 'Lab_6/Vertical_Space.dart';
+import 'Lab_7/HelloWorldUsingTextWidget.dart';
+import 'Lab_7/customTextWidget.dart';
+import 'Lab_8/WebImg.dart';
+import 'Lab_8/assetImg.dart';
+import 'Lab_8/birthday_card.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -31,7 +40,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: BirthdayCard(),
     );
   }
 }
