@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_lab/Lab_10/Login.dart';
 import 'package:flutter_lab/Lab_6/DivideScreen.dart';
 
 import 'Lab_6/Vertical_Space.dart';
@@ -7,6 +8,10 @@ import 'Lab_7/customTextWidget.dart';
 import 'Lab_8/WebImg.dart';
 import 'Lab_8/assetImg.dart';
 import 'Lab_8/birthday_card.dart';
+import 'Lab_9/DemoTabView.dart';
+import 'Lab_9/Home.dart';
+import 'Lab_9/NavigationDrawerDemo.dart';
+import 'Lab_9/Page1.dart';
 
 
 void main() {
@@ -40,7 +45,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: BirthdayCard(),
+      home: LoginPage(),
     );
   }
 }
